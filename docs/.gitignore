@@ -1,0 +1,25 @@
+
+# Python environment
+.venv/
+__pycache__/
+*.pyc
+
+# Jupyter temporary files
+.ipynb_checkpoints/
+
+# Local configuration
+.env
+
+# Raw and processed data
+data/raw/*.csv
+data/processed/*
+!data/processed/.gitkeep
+
+# Local database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Operating system files
+.DS_Store
+Thumbs.db
